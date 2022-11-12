@@ -12,8 +12,8 @@ export default class App extends Component {
   routes = createBrowserRouter([
     {
       path: "/",
-      element: <MasterLayout />,
-      errorElement: <NotFound />,
+      element:<MasterLayout /> ,
+      errorElement:<NotFound /> ,
       children: [
         { index: true, element: <Home /> },
         { path: "about", element: <About /> },
